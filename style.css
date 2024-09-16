@@ -56,6 +56,17 @@ header {
     width: 60%;
     
 }
+button {
+    background-color: rgba(0, 119, 255, 0.877);
+    border: none;
+    
+}
+button a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border: none;
+}
 .flex-h1 {
     text-align: center;
     padding-bottom: 30px;
@@ -69,14 +80,18 @@ header {
     padding-bottom: 20px;
 }
 .flex-button {
-    padding: 15px;
+    padding: 10px;
+    color: white;
 }
 section { 
     padding: 50px;
+    margin-top: 5%;
 }
 .flex-section {
     display: flex;
     flex: row;
+    margin-left: 10%;
+    margin-right: 5%;
   
 }
 .section-table {
@@ -310,12 +325,25 @@ grid-row-gap: px;
     .case-text-image h2{
         font-size: 40px;
     }
+
+    .managers-container {
+        margin-top: 10%;
+        
+    }
+    /* f */
     footer {
         background-image: url(./assets/image/image35.jpg);
         background-position: center;
         background-size: cover;
-        height: 80vh;
+        height: 70vh;
+        margin-top: 10%; 
     }
+
+    .footer-container {
+        text-align: start;
+        text-indent: inherit;
+    }
+
     .footer-image {
         display: flex;
         flex-direction: row;
@@ -323,16 +351,83 @@ grid-row-gap: px;
     
     }
     .footer-text {
-        background-color: rgba(0, 0, 0, 0.452);
+        background-color: rgba(0, 0, 0, 0.74);
         color: white;
         background-size: cover;
         background-position: center;
+        height: 70vh;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 0px;
     }
+    .footer-text p {
+        font-size: 20px;
+        line-height: 2rem;
+    }
+    
     .footer-image img {
-        width: 10%;
+        width: 25%;
+        margin-top: 10%;
     }
     .footer-image p {
-        font-size: 30px;
-        
-        
-    }
+        font-size: 20px;
+     }
+/* f */
+.footer-name {
+    margin: 10%;
+    margin-top: 20%;
+    line-height: 2rem;
+    padding-left: 8px;
+
+}
+.main-name {
+    font-size: 25px;
+    line-height: 1.2rem;
+}
+.base-name {
+    font-size: 15px;
+    
+    
+}
+footer p {
+    line-height: 2rem;
+    padding: 10px;
+    text-align: start;
+    
+}
+.footer-name a {
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-size: 20px;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.flex-footer {
+text-align: start;
+line-height: 2rem;
+padding: 25px;
+margin-top: 2rem;
+margin-bottom: 2rem;
+padding-left: none;
+font-size: 20px;
+}
+.flex-footer h1 {
+    font-size: 25px;
+    line-height: 4rem;
+}
+
+.flex-list {
+    text-decoration: none;
+    text-align: left;
+    list-style: inside;
+    font-size: 20px;
+
+}
+.flex-list a{
+    text-decoration: none;
+    color: white;
+}
